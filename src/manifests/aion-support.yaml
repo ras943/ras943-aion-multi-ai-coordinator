@@ -1,0 +1,13 @@
+agent:
+  id: AION-Support
+  role: user_assistance
+  capabilities:
+    - faq_generation
+    - kyc_guidance
+    - ticket_resolution
+  metrics:
+    accuracy_target: 0.95
+    latency_target_ms: 300
+  autonomy_level: 4
+  endpoints:
+    http: http://aion-support.local/api
