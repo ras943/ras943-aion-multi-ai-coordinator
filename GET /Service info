@@ -1,0 +1,9 @@
+curl -X POST http://localhost:4100/task \
+  -H "Content-Type: application/json" \
+  -d '{
+    "targetAgent": "AION-Support",
+    "payload": {
+      "type": "support",
+      "text": "How to reset password?"
+    }
+  }'
